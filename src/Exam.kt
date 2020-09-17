@@ -2,7 +2,6 @@ import java.util.regex.Pattern
 
 class Exam {
 
-    // ************ 1 ***************
     // FizzBuzz
     fun fizzBuzz() {
         for (i in 1..100) {
@@ -31,14 +30,7 @@ class Exam {
             )
         }
     }
-    // ************ end of 1 ***************
 
-    // ************ 2 ***************
-    // Harry Potter
-
-    // ************ end of 2 ***************
-
-    // ************ 3 ***************
     // String Calculator
     fun add(input: String): Int {
         val array = input.toCharArray()
@@ -60,5 +52,4 @@ class Exam {
         }
         return result
     }
-    // ************ end of 3 ***************
 }
